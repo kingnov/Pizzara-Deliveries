@@ -1,8 +1,28 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin" as *;
-.nav{
-    background-color:$light-grey;
-    &__container{
-        @include flex(space-between,center);
+.nav {
+  background-color: $light-grey;
+  &__container {
+    @include flex(space-between, center);
+  }
+  &__center {
+    font-size: 30px;
+    ul {
+      @include flex(space-between, center);
+      #home-bar {
+        background-color: orange;
+      }
+      li {
+        margin: 30px;
+      }
     }
+  }
+  &__right {
+    ul {
+      @include flex(space-between, center);
+      li {
+        margin: 15px;
+      }
+    }
+  }
 }

@@ -26,3 +26,27 @@ a {
   align-items: center;
   flex-direction: row;
 }
+.nav__center {
+  font-size: 30px;
+}
+.nav__center ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__center ul #home-bar {
+  background-color: orange;
+}
+.nav__center ul li {
+  margin: 30px;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__right ul li {
+  margin: 15px;
+}
