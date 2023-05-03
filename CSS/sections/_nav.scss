@@ -1,0 +1,8 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+.nav{
+    background-color:$light-grey;
+    &__container{
+        @include flex(space-between,center);
+    }
+}
