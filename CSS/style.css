@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Kanit", sans-serif;
+}
+
 .nav {
   background-color: #F4F7FB;
 }
@@ -26,27 +30,20 @@ a {
   align-items: center;
   flex-direction: row;
 }
-.nav__center {
-  font-size: 30px;
-}
-.nav__center ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-.nav__center ul #home-bar {
-  background-color: orange;
+.nav ul li {
+  margin: 1.5em;
 }
-.nav__center ul li {
-  margin: 30px;
+.nav ul li a {
+  color: #000;
+  padding: 1em;
 }
-.nav__right ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.nav__right ul li {
-  margin: 15px;
+.nav ul li a:hover {
+  background-color: #EEA539;
+  color: #FFF;
 }
