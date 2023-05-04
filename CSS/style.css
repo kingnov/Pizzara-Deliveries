@@ -47,3 +47,55 @@ body {
   background-color: #EEA539;
   color: #FFF;
 }
+
+.hero {
+  margin: 4em 0;
+}
+.hero__container {
+  gap: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.hero__container h1 {
+  font-size: 5rem;
+}
+.hero .hero__left--orange {
+  color: orange;
+}
+.hero__left, .hero__right {
+  flex: 1;
+}
+.hero__left__search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0px 0px 5px lightgray;
+  border-radius: 5px;
+  width: 90%;
+  margin: 2em 0;
+}
+.hero i {
+  padding: 0 0.7em;
+}
+.hero form {
+  width: 100%;
+}
+.hero form button {
+  background-color: #000;
+  padding: 2.5em 4em;
+  color: #FFF;
+  border: none;
+  font-size: 0.8rem;
+}
+.hero input {
+  border: none;
+  font-size: 0.8rem;
+  padding: 1em;
+  width: 72%;
+}
+.hero input:focus {
+  outline: none;
+}
